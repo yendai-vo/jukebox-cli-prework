@@ -32,5 +32,7 @@ def play(arr)
     puts input
   elsif input.to_i < 10
     puts arr[input.to_i - 1]
+  else
+    puts "Invalid input, please try again"
   end
 end
