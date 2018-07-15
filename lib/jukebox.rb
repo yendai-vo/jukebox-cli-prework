@@ -31,7 +31,6 @@ def play(arr)
   if arr.include?(input)
     puts input
   elsif input.to_i < 10
-    puts input.to_i
     puts arr[input.to_i - 1]
   else
     puts "Invalid input, please try again"
