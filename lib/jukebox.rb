@@ -21,5 +21,5 @@ end
 
 
 def play(number)
-  songs[number] - 1
+  songs[number - 1]
 end
