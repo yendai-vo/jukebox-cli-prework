@@ -31,6 +31,6 @@ def play(arr)
   if arr.include?(input)
     puts input
   elsif input.to_i < 10
-    puts songs[input.to_i - 1]
+    puts arr[input.to_i - 1]
   end
 end
