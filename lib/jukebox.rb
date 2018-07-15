@@ -49,12 +49,12 @@ def run(songs)
     puts "Please enter a command:"
     input = gets.chomp
     if input == "list"
-      list
+      list(songs)
     elsif input == "help"
       help
     elsif input == "play"
-      play
+      play(songs)
     end
   end
-  exit 
+  exit
 end
