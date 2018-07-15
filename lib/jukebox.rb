@@ -18,8 +18,3 @@ def help
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
 end
-
-
-def play(number)
-  puts songs[number - 1]
-end
