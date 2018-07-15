@@ -28,6 +28,8 @@ end
 def play(arr)
   puts "Please enter a song name or number:"
   input = gets.chomp
+  puts input
+  puts input.to_i
   if arr.include?(input)
     puts input
   elsif input.to_i < 10
