@@ -56,6 +56,4 @@ def run(songs)
         play
       end
     end
-
-
 end
