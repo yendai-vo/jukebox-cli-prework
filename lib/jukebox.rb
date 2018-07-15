@@ -19,8 +19,18 @@ def help
   puts "- exit : exits this program"
 end
 
-def list(songs)
-  songs.each_with_index{ |song, index|
+def list(arr)
+  arr.each_with_index{ |song, index|
     puts "#{index + 1}. #{song}"
   }
+end
+
+def play(arr)
+  puts "Please enter a song name or number:"
+  input = gets.chomp
+  if arr.include?(input)
+    puts input
+  elsif input.to_i < 10
+    puts songs[input.to_i - 1]
+  end
 end
